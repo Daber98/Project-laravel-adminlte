@@ -324,9 +324,19 @@ return [
         ],
         ['header' => 'account_settings'],
         [
+            'text' => 'roles',
+            'url' => 'admin/settings',
+            'icon' => 'fas fa-fw fa-star',
+        ],
+        [
             'text' => 'profile',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
+        ],
+        [
+            'text' => 'estadistica',
+            'url' => 'admin/settings',
+            'icon' => 'fas fa-fw fa-folder-open',
         ],
         [
             'text' => 'change_password',
@@ -370,23 +380,7 @@ return [
                     'url' => '#',
                 ],
             ],
-        ],
-        ['header' => 'labels'],
-        [
-            'text' => 'important',
-            'icon_color' => 'red',
-            'url' => '#',
-        ],
-        [
-            'text' => 'warning',
-            'icon_color' => 'yellow',
-            'url' => '#',
-        ],
-        [
-            'text' => 'information',
-            'icon_color' => 'cyan',
-            'url' => '#',
-        ],
+        ]
     ],
 
     /*
