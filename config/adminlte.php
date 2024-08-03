@@ -334,6 +334,11 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
+            'text' => 'administracion',
+            'url' => 'admin/settings',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+        [
             'text' => 'estadistica',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-folder-open',
